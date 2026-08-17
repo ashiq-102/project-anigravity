@@ -1,0 +1,5 @@
+**/bin/
+**/obj/
+**/MySettings.json
+.env
+.env.*

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11520.95 d18.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML-25-26-05-Python-Code-Tool-Interpreter-for-Chart-Creation", "ML-25-26-05-Python-Code-Tool-Interpreter-for-Chart-Creation\ML-25-26-05-Python-Code-Tool-Interpreter-for-Chart-Creation.csproj", "{A5B8FDFA-DAAA-49FF-B249-FC1501DF57F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{1CDB921B-FF93-4CED-932F-383389201172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B8FDFA-DAAA-49FF-B249-FC1501DF57F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B8FDFA-DAAA-49FF-B249-FC1501DF57F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B8FDFA-DAAA-49FF-B249-FC1501DF57F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B8FDFA-DAAA-49FF-B249-FC1501DF57F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDB921B-FF93-4CED-932F-383389201172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDB921B-FF93-4CED-932F-383389201172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDB921B-FF93-4CED-932F-383389201172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDB921B-FF93-4CED-932F-383389201172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A06887AA-75C4-4DF1-A3E5-40AFF04D0242}
+	EndGlobalSection
+EndGlobal

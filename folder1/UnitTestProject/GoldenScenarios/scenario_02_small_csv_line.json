@@ -1,0 +1,12 @@
+{
+  "Id": "02_small_csv_line",
+  "Title": "Line chart from small CSV (< 1 MB)",
+  "UserPrompt": "Upload small_sales.csv and plot a line chart of sales by month.",
+  "ExpectedOutcomes": [
+    "CSV loads with pandas read_csv",
+    "Line chart PNG is produced"
+  ],
+  "Fixture": "fixtures/small_sales.csv",
+  "PythonScriptFile": "scenario_02_small_csv_line.py",
+  "LargeFixtureRowCount": null
+}

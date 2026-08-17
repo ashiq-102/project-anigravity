@@ -1,0 +1,12 @@
+{
+  "Id": "04_large_sample_scatter",
+  "Title": "Scatter plot with large CSV using sampling",
+  "UserPrompt": "Given a large CSV of numeric columns x and y, load only a subset of rows and plot a scatter chart (same pattern used for multi-hundred-MB files).",
+  "ExpectedOutcomes": [
+    "read_csv with nrows limits memory",
+    "Scatter PNG is produced"
+  ],
+  "Fixture": null,
+  "PythonScriptFile": "scenario_04_large_sample_scatter.py",
+  "LargeFixtureRowCount": 15000
+}

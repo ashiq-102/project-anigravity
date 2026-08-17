@@ -1,0 +1,6 @@
+@ChartCreationMCPServer_HostAddress = http://localhost:5168
+
+GET {{ChartCreationMCPServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

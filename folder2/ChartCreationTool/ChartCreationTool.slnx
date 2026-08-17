@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../UnitTestProject/UnitTestProject.csproj" />
+  <Project Path="Agent/Agent.csproj" Id="94ccd36b-59f6-495d-a9bb-d93b6556f872" />
+  <Project Path="ChartCreationMCPServer/ChartCreationMCPServer.csproj" />
+</Solution>

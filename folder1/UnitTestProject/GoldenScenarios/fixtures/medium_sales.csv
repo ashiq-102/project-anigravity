@@ -1,0 +1,13 @@
+region,month,revenue,units
+North,Jan,12000,400
+South,Jan,9500,320
+East,Jan,14000,450
+West,Jan,11000,360
+North,Feb,12500,410
+South,Feb,9800,330
+East,Feb,13800,440
+West,Feb,11200,365
+North,Mar,13000,420
+South,Mar,10100,340
+East,Mar,14200,460
+West,Mar,11500,370

@@ -1,0 +1,13 @@
+{
+  "Id": "01_inline_bar",
+  "Title": "Simple bar chart with inline data",
+  "UserPrompt": "Create a bar chart for categories A, B, C with values 3, 7, 5.",
+  "ExpectedOutcomes": [
+    "PythonCodeValidator accepts the script",
+    "PythonExecutor exits with code 0",
+    "PNG artifact exists and is non-empty"
+  ],
+  "Fixture": null,
+  "PythonScriptFile": "scenario_01_inline_bar.py",
+  "LargeFixtureRowCount": null
+}

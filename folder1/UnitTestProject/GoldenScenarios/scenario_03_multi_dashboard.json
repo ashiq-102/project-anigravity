@@ -1,0 +1,26 @@
+{
+  "Id": "03_multi_dashboard",
+  "Title": "Multi-chart dashboard from medium CSV",
+  "UserPrompt": "From medium_sales.csv create: (1) line chart of total revenue by month, (2) bar chart of revenue by region, (3) bar chart of units by region.",
+  "ExpectedOutcomes": [
+    "Three separate chart PNGs are produced",
+    "Each script passes validation"
+  ],
+  "Fixture": "fixtures/medium_sales.csv",
+  "Steps": [
+    {
+      "ChartId": "revenue_by_month",
+      "PythonScriptFile": "scenario_03a_revenue_by_month.py"
+    },
+    {
+      "ChartId": "revenue_by_region",
+      "PythonScriptFile": "scenario_03b_revenue_by_region.py"
+    },
+    {
+      "ChartId": "units_by_region",
+      "PythonScriptFile": "scenario_03c_units_by_region.py"
+    }
+  ],
+  "PythonScriptFile": null,
+  "LargeFixtureRowCount": null
+}

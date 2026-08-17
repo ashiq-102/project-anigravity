@@ -1,0 +1,12 @@
+{
+  "Id": "05_timeseries_resample",
+  "Title": "Time series with datetime parsing and resampling",
+  "UserPrompt": "Load a CSV with a date column and value, parse dates, resample to month-start frequency, and plot the series.",
+  "ExpectedOutcomes": [
+    "Datetime index resampling succeeds",
+    "Line chart PNG is produced"
+  ],
+  "Fixture": "fixtures/timeseries_daily.csv",
+  "PythonScriptFile": "scenario_05_timeseries_resample.py",
+  "LargeFixtureRowCount": null
+}
